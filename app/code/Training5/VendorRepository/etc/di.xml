@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Training5\VendorRepository\Api\VendorRepositoryInterface"
+                type="Training5\VendorRepository\Model\Resource\VendorRepository" />
+
+    <preference for="Training5\VendorRepository\Api\Data\VendorInterface"
+                type="Training5\VendorRepository\Model\Data\Vendor" />
+</config>
